@@ -1,0 +1,339 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+        ,{
+            "path" : "pages/Me/Login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/Login/forget",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "忘记密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/CQU/changeinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "更改信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/Info/myinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/changepassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "更改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Me/Info/xiugaiinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "采集信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/Index/Map/map",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "校园地图",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/Index/srb",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "招生简章",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,
+		{
+		    "path" : "pages/Index/Major/ITE",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "物联网工程",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/Index/Major/EEG",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "工程与能源",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/Index/Major/EEY",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "电气工程",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/Index/Major/ISY",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "信息安全",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/Index/CQUcount",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "学校总人数",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+            "path" : "pages/Index/rps",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Index/Map/library",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图书馆介绍",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Index/Map/DS1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "第一实验楼介绍",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Index/Map/D1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "第一教学楼介绍",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Index/Major/CST",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "计算机科学与技术",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/CQU/cover",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "欢迎来到重庆大学",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/CQU/text",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/CQU/example",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/Func/func",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "功能",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/Func/func",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "功能",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/Func/activity",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "校园活动",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/Func/calendar",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "校历",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/Func/library",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "图书馆占位",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/Func/pay",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "财小通",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/Func/schedule",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "校车时刻表",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/Func/bank/yue",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Func/bank/zhangdan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Func/bank/jiaofei",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Func/bank/chongzhi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        } 
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+			"pagePath": "pages/Index/index",
+			"iconPath": "static/icon/navigator/homegrey.png",
+			"selectedIconPath": "static/icon/navigator/homepink.png",
+			"text": "首页"
+		},
+		{
+			"pagePath": "pages/Func/func",
+			"iconPath": "static/icon/navigator/funcgrey.png",
+			"selectedIconPath": "static/icon/navigator/funcpink.png",
+			"text": "功能"
+		},{
+			"pagePath": "pages/Me/me",
+			"iconPath": "static/icon/navigator/megrey.png",
+			"selectedIconPath": "static/icon/navigator/mepink.png",
+			"text": "我的"
+		}]
+	}
+}
